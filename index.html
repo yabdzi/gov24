@@ -629,7 +629,7 @@ const LOGO_URL = '/mnt/user-data/uploads/정부로고.png';
 // Try to load the real logo
 async function loadLogo() {
   // Since we can't serve local files in browser, use embedded SVG that mimics the logo
-  setAllLogos(LOGO_SVG);
+  setAllLogos("정부로고.png");
 }
 
 function setAllLogos(src) {
